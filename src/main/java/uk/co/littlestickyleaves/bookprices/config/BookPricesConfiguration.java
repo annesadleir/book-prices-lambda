@@ -1,18 +1,14 @@
 package uk.co.littlestickyleaves.bookprices.config;
 
-import com.google.common.collect.Lists;
 import uk.co.littlestickyleaves.bookprices.BookPriceInfoCreator;
 import uk.co.littlestickyleaves.bookprices.shops.BookshopPriceService;
 import uk.co.littlestickyleaves.bookprices.shops.amazon.AmazonPriceService;
 import uk.co.littlestickyleaves.bookprices.shops.amazon.AmazonSignedUrlCreator;
 import uk.co.littlestickyleaves.bookprices.shops.waterstones.WaterstonesPriceService;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -26,10 +22,9 @@ public class BookPricesConfiguration implements Supplier<BookPriceInfoCreator> {
     public BookPriceInfoCreator get() {
         AmazonPriceService amazonPriceService = createAmazonPriceService();
 
-        List<BookshopPriceService> bookshopPriceServices = Lists.newArrayList(
-                new WaterstonesPriceService(),
-                amazonPriceService
-        );
+        List<BookshopPriceService> bookshopPriceServices = new ArrayList<>();
+        bookshopPriceServices.add(new WaterstonesPriceService());
+        bookshopPriceServices.add(amazonPriceService);
 
         return new BookPriceInfoCreator(bookshopPriceServices);
     }

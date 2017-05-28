@@ -32,8 +32,9 @@ public class AmazonSignedUrlCreator {
     private final String awsAccessKeyId;
     private final String associateId;
     private final Mac mac;
+    private Clock clock = Clock.systemUTC();
 
-    private AmazonSignedUrlCreator(String awsAccessKeyId, String associateId, Mac mac) {
+    protected AmazonSignedUrlCreator(String awsAccessKeyId, String associateId, Mac mac) {
         this.associateId = associateId;
         this.awsAccessKeyId = awsAccessKeyId;
         this.mac = mac;
@@ -98,7 +99,7 @@ public class AmazonSignedUrlCreator {
     }
 
     private String timestamp() {
-        ZonedDateTime now = ZonedDateTime.now(Clock.systemUTC());
+        ZonedDateTime now = ZonedDateTime.now(clock);
         return DateTimeFormatter.ISO_LOCAL_DATE_TIME.withZone(ZoneId.of("UTC"))
                 .format(now);
     }
@@ -112,5 +113,9 @@ public class AmazonSignedUrlCreator {
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException(UTF8.displayName() + " is not a supported encoding");
         }
+    }
+
+    public void setClock(Clock clock) {
+        this.clock = clock;
     }
 }

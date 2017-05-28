@@ -1,0 +1,976 @@
+<?xml version="1.0" ?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="unirest-java/1.3.11"></Header>
+        </HTTPHeaders>
+        <RequestId>017f947a-17fa-446b-af17-dd90422a1ece</RequestId>
+        <Arguments>
+            <Argument Name="AWSAccessKeyId" Value="accesskey"></Argument>
+            <Argument Name="AssociateTag" Value="associatetag"></Argument>
+            <Argument Name="IdType" Value="ISBN"></Argument>
+            <Argument Name="ItemId" Value="9780241242728"></Argument>
+            <Argument Name="Operation" Value="ItemLookup"></Argument>
+            <Argument Name="ResponseGroup" Value="Large"></Argument>
+            <Argument Name="SearchIndex" Value="All"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Timestamp" Value="2017-05-28T18:59:14.531"></Argument>
+            <Argument Name="Signature" Value="signature="></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.1160605000000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemLookupRequest>
+                <IdType>ISBN</IdType>
+                <ItemId>9780241242728</ItemId>
+                <ResponseGroup>Large</ResponseGroup>
+                <SearchIndex>All</SearchIndex>
+                <VariationPage>All</VariationPage>
+            </ItemLookupRequest>
+        </Request>
+        <Item>
+            <ASIN>B019GF5YH8</ASIN>
+            <DetailPageURL>
+                https://www.amazon.co.uk/Homegoing-Yaa-Gyasi-ebook/dp/B019GF5YH8?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B019GF5YH8
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.co.uk/gp/registry/wishlist/add-item.html?asin.0=B019GF5YH8&amp;SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=B019GF5YH8</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.co.uk/gp/pdp/taf/B019GF5YH8?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=B019GF5YH8</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.co.uk/review/product/B019GF5YH8?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=B019GF5YH8</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.co.uk/gp/offer-listing/B019GF5YH8?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=B019GF5YH8</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SalesRank>2540</SalesRank>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">49</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">104</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">325</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">49</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">49</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">72</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">104</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">325</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Author>Yaa Gyasi</Author>
+                <Binding>Kindle Edition</Binding>
+                <EISBN>9780241975244</EISBN>
+                <Format>Kindle eBook</Format>
+                <Label>Penguin</Label>
+                <Languages>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Published</Type>
+                    </Language>
+                </Languages>
+                <ListPrice>
+                    <Amount>999</Amount>
+                    <CurrencyCode>GBP</CurrencyCode>
+                    <FormattedPrice>£9.99</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Penguin</Manufacturer>
+                <NumberOfPages>315</NumberOfPages>
+                <ProductGroup>eBooks</ProductGroup>
+                <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+                <PublicationDate>2016-06-07</PublicationDate>
+                <Publisher>Penguin</Publisher>
+                <ReleaseDate>2016-06-07</ReleaseDate>
+                <Studio>Penguin</Studio>
+                <Title>Homegoing</Title>
+            </ItemAttributes>
+            <CustomerReviews>
+                <IFrameURL>https://www.amazon.co.uk/reviews/iframe?akid=accesskey&amp;alinkCode=xm2&amp;asin=B019GF5YH8&amp;atag=associatetag&amp;exp=2017-05-29T18%3A59%3A08Z&amp;v=2&amp;sig=8mzXQWwkJKXeFcI1Jqv1N52pHP%252Bq9B2QNrWFS3Q%252FD84%253D</IFrameURL>
+                <HasReviews>true</HasReviews>
+            </CustomerReviews>
+            <EditorialReviews>
+                <EditorialReview>
+                    <Source>Product Description</Source>
+                    <Content>&lt;p&gt;&lt;b&gt;THE SUNDAY TIMES BESTSELLER &lt;/b&gt;&lt;br /&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;Selected
+                        for Granta's Best of Young American Novelists 2017&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Winner of the
+                        National Book Critics Circle Award for Best First Book&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Shortlisted
+                        for the PEN/Robert W. Bingham Prize for Debut Fiction &lt;/b&gt;&lt;/p&gt;&lt;p&gt;Effia and
+                        Esi: two sisters with two very different destinies. One sold into slavery; one a slave trader's
+                        wife. The consequences of their fate reverberate through the generations that follow. Taking us
+                        from the Gold Coast of Africa to the cotton-picking plantations of Mississippi; from the
+                        missionary schools of Ghana to the dive bars of Harlem, spanning three continents and seven
+                        generations, Yaa Gyasi has written a miraculous novel - the intimate, gripping story of a
+                        brilliantly vivid cast of characters and through their lives the very story of America itself.&lt;/p&gt;&lt;p&gt;Epic
+                        in its canvas and intimate in its portraits, &lt;i&gt;Homegoing&lt;/i&gt; is a searing and
+                        profound debut from a masterly new writer.&lt;/p&gt;
+                    </Content>
+                    <IsLinkSuppressed>0</IsLinkSuppressed>
+                </EditorialReview>
+            </EditorialReviews>
+            <SimilarProducts>
+                <SimilarProduct>
+                    <ASIN>B01FE6V5Q2</ASIN>
+                    <Title>The Underground Railroad: Winner of the Pulitzer Prize for Fiction 2017</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B00623JZ82</ASIN>
+                    <Title>In the Orchard, the Swallows</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B01IDAMBFK</ASIN>
+                    <Title>Little Deaths</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B01C3NCZQS</ASIN>
+                    <Title>Swing Time</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B00EMC5JOO</ASIN>
+                    <Title>We Are Called to Rise</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B01LDANWZK</ASIN>
+                    <Title>Stay With Me</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B01HNFSZWO</ASIN>
+                    <Title>Swimming Lessons</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B01LXKLSQ0</ASIN>
+                    <Title>Exit West</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B007BYM1DC</ASIN>
+                    <Title>July's People</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>B015I52K7W</ASIN>
+                    <Title>Behold the Dreamers</Title>
+                </SimilarProduct>
+            </SimilarProducts>
+            <BrowseNodes>
+                <BrowseNode>
+                    <BrowseNodeId>10790401</BrowseNodeId>
+                    <Name>Historical</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>62</BrowseNodeId>
+                            <Name>Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>1025612</BrowseNodeId>
+                                    <Name>Subjects</Name>
+                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>266239</BrowseNodeId>
+                                            <Name>Books</Name>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>590934</BrowseNodeId>
+                    <Name>Literary Fiction</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>62</BrowseNodeId>
+                            <Name>Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>1025612</BrowseNodeId>
+                                    <Name>Subjects</Name>
+                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>266239</BrowseNodeId>
+                                            <Name>Books</Name>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542683031</BrowseNodeId>
+                    <Name>African</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>362282031</BrowseNodeId>
+                            <Name>Historical Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542690031</BrowseNodeId>
+                    <Name>Chinese</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>362282031</BrowseNodeId>
+                            <Name>Historical Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542703031</BrowseNodeId>
+                    <Name>United States</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>362282031</BrowseNodeId>
+                            <Name>Historical Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542733031</BrowseNodeId>
+                    <Name>Historical</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>362284031</BrowseNodeId>
+                            <Name>Literary Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542624031</BrowseNodeId>
+                    <Name>American</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>4542623031</BrowseNodeId>
+                            <Name>Contemporary Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542627031</BrowseNodeId>
+                    <Name>Literary</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>4542623031</BrowseNodeId>
+                            <Name>Contemporary Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                    <Name>Literature &amp; Fiction</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                            <Name>Kindle eBooks</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                    <Name>Categories</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                            <Name>Kindle Store</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542808031</BrowseNodeId>
+                    <Name>Historical</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>4542806031</BrowseNodeId>
+                            <Name>African American</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>4542805031</BrowseNodeId>
+                                    <Name>United States</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>4542790031</BrowseNodeId>
+                                            <Name>World Literature</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>362270031</BrowseNodeId>
+                                                    <Name>Literature &amp; Fiction</Name>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341689031</BrowseNodeId>
+                                                            <Name>Kindle eBooks</Name>
+                                                            <Ancestors>
+                                                                <BrowseNode>
+                                                                    <BrowseNodeId>341678031</BrowseNodeId>
+                                                                    <Name>Categories</Name>
+                                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                                    <Ancestors>
+                                                                        <BrowseNode>
+                                                                            <BrowseNodeId>341677031</BrowseNodeId>
+                                                                            <Name>Kindle Store</Name>
+                                                                        </BrowseNode>
+                                                                    </Ancestors>
+                                                                </BrowseNode>
+                                                            </Ancestors>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4542815031</BrowseNodeId>
+                    <Name>Contemporary Fiction</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>4542805031</BrowseNodeId>
+                            <Name>United States</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>4542790031</BrowseNodeId>
+                                    <Name>World Literature</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>362270031</BrowseNodeId>
+                                            <Name>Literature &amp; Fiction</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>341689031</BrowseNodeId>
+                                                    <Name>Kindle eBooks</Name>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>341678031</BrowseNodeId>
+                                                            <Name>Categories</Name>
+                                                            <IsCategoryRoot>1</IsCategoryRoot>
+                                                            <Ancestors>
+                                                                <BrowseNode>
+                                                                    <BrowseNodeId>341677031</BrowseNodeId>
+                                                                    <Name>Kindle Store</Name>
+                                                                </BrowseNode>
+                                                            </Ancestors>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+            </BrowseNodes>
+        </Item>
+        <Item>
+            <ASIN>024124272X</ASIN>
+            <DetailPageURL>
+                https://www.amazon.co.uk/Homegoing-Yaa-Gyasi/dp/024124272X?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=024124272X
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.co.uk/gp/registry/wishlist/add-item.html?asin.0=024124272X&amp;SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=024124272X</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.co.uk/gp/pdp/taf/024124272X?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=024124272X</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.co.uk/review/product/024124272X?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=024124272X</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.co.uk/gp/offer-listing/024124272X?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=024124272X</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SalesRank>1907</SalesRank>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">49</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">104</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">325</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">22</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">54</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">54</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">79</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">116</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KJSg59q-L.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">361</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">22</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">56</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">56</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">82</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">119</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BFWLiBozL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">371</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL._SL30_.jpg</URL>
+                        <Height Units="pixels">23</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL._SL75_.jpg</URL>
+                        <Height Units="pixels">58</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL._SL75_.jpg</URL>
+                        <Height Units="pixels">58</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL._SL110_.jpg</URL>
+                        <Height Units="pixels">84</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL._SL160_.jpg</URL>
+                        <Height Units="pixels">123</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51cLfPvXqxL.jpg</URL>
+                        <Height Units="pixels">384</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL._SL30_.jpg</URL>
+                        <Height Units="pixels">23</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL._SL75_.jpg</URL>
+                        <Height Units="pixels">57</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL._SL75_.jpg</URL>
+                        <Height Units="pixels">57</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL._SL110_.jpg</URL>
+                        <Height Units="pixels">84</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL._SL160_.jpg</URL>
+                        <Height Units="pixels">122</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Ic2DgZQqL.jpg</URL>
+                        <Height Units="pixels">382</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">23</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">57</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">57</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">84</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">123</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/417yK8nz6ZL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">383</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">49</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">49</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">72</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">104</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ChYVhSoDL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">325</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Author>Yaa Gyasi</Author>
+                <Binding>Hardcover</Binding>
+                <EAN>9780241242728</EAN>
+                <EANList>
+                    <EANListElement>9780241242728</EANListElement>
+                </EANList>
+                <IsAdultProduct>0</IsAdultProduct>
+                <ISBN>024124272X</ISBN>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">945</Height>
+                    <Length Units="hundredths-inches">638</Length>
+                    <Width Units="hundredths-inches">118</Width>
+                </ItemDimensions>
+                <Label>Viking</Label>
+                <Languages>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Published</Type>
+                    </Language>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Original Language</Type>
+                    </Language>
+                </Languages>
+                <ListPrice>
+                    <Amount>1299</Amount>
+                    <CurrencyCode>GBP</CurrencyCode>
+                    <FormattedPrice>£12.99</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Viking</Manufacturer>
+                <NumberOfItems>1</NumberOfItems>
+                <NumberOfPages>320</NumberOfPages>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">157</Height>
+                    <Length Units="hundredths-inches">984</Length>
+                    <Weight Units="hundredths-pounds">101</Weight>
+                    <Width Units="hundredths-inches">669</Width>
+                </PackageDimensions>
+                <ProductGroup>Book</ProductGroup>
+                <ProductTypeName>ABIS_BOOK</ProductTypeName>
+                <PublicationDate>2017-01-05</PublicationDate>
+                <Publisher>Viking</Publisher>
+                <ReleaseDate>2017-01-05</ReleaseDate>
+                <Studio>Viking</Studio>
+                <Title>Homegoing</Title>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>547</Amount>
+                    <CurrencyCode>GBP</CurrencyCode>
+                    <FormattedPrice>£5.47</FormattedPrice>
+                </LowestNewPrice>
+                <LowestUsedPrice>
+                    <Amount>660</Amount>
+                    <CurrencyCode>GBP</CurrencyCode>
+                    <FormattedPrice>£6.60</FormattedPrice>
+                </LowestUsedPrice>
+                <LowestCollectiblePrice>
+                    <Amount>999</Amount>
+                    <CurrencyCode>GBP</CurrencyCode>
+                    <FormattedPrice>£9.99</FormattedPrice>
+                </LowestCollectiblePrice>
+                <TotalNew>34</TotalNew>
+                <TotalUsed>8</TotalUsed>
+                <TotalCollectible>4</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.co.uk/gp/offer-listing/024124272X?SubscriptionId=accesskey&amp;tag=associatetag&amp;linkCode=xm2&amp;camp=2025&amp;creative=12734&amp;creativeASIN=024124272X</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            5fkGyXtwDgHUCX%2BVGFXDQAsVPmE%2BleppWw9kLT0UpFJ3I4n6EGvG8WsiT%2FGNzBGRiQiqyIvz0svDK0hq2DIEb1GiOdTpCJ4SA598iBZW7Pw%3D
+                        </OfferListingId>
+                        <Price>
+                            <Amount>909</Amount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <FormattedPrice>£9.09</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>390</Amount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <FormattedPrice>£3.90</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>30</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+            <CustomerReviews>
+                <IFrameURL>https://www.amazon.co.uk/reviews/iframe?akid=accesskey&amp;alinkCode=xm2&amp;asin=024124272X&amp;atag=associatetag&amp;exp=2017-05-29T18%3A59%3A08Z&amp;v=2&amp;sig=zcqo61fShx%252B%252BO9OAmAHcj4qjIV57BZUmHPeBKbNw0pQ%253D</IFrameURL>
+                <HasReviews>true</HasReviews>
+            </CustomerReviews>
+            <SimilarProducts>
+                <SimilarProduct>
+                    <ASIN>0571268943</ASIN>
+                    <Title>Welcome to Lagos</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>0670919888</ASIN>
+                    <Title>Ghana Must Go</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>1782119469</ASIN>
+                    <Title>Stay With Me</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>0708898394</ASIN>
+                    <Title>The Underground Railroad: Winner of the Pulitzer Prize for Fiction 2017</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>0099523949</ASIN>
+                    <Title>On Black Sisters' Street</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>0099510731</ASIN>
+                    <Title>The Unseen World</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>1847088384</ASIN>
+                    <Title>Under the Udala Trees</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>1846687497</ASIN>
+                    <Title>The Secret Lives of Baba Segi's Wives</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>1447299396</ASIN>
+                    <Title>What Is Not Yours Is Not Yours</Title>
+                </SimilarProduct>
+                <SimilarProduct>
+                    <ASIN>0008241031</ASIN>
+                    <Title>Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions</Title>
+                </SimilarProduct>
+            </SimilarProducts>
+            <BrowseNodes>
+                <BrowseNode>
+                    <BrowseNodeId>10790401</BrowseNodeId>
+                    <Name>Historical</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>62</BrowseNodeId>
+                            <Name>Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>1025612</BrowseNodeId>
+                                    <Name>Subjects</Name>
+                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>266239</BrowseNodeId>
+                                            <Name>Books</Name>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>590934</BrowseNodeId>
+                    <Name>Literary Fiction</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>62</BrowseNodeId>
+                            <Name>Fiction</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>1025612</BrowseNodeId>
+                                    <Name>Subjects</Name>
+                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>266239</BrowseNodeId>
+                                            <Name>Books</Name>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+            </BrowseNodes>
+        </Item>
+    </Items>
+</ItemLookupResponse>

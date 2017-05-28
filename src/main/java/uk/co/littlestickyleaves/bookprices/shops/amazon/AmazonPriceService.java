@@ -80,7 +80,7 @@ public class AmazonPriceService extends BookshopPriceService {
         try {
             String webpage = (String) xPath.evaluate(XPATH_ITEM_WEBPAGE, node, XPathConstants.STRING);
             Double pence = (Double) xPath.evaluate(XPATH_FIRST_OFFER_PRICE, node, XPathConstants.NUMBER);
-            return new PriceAtWebsite(webpage, pence / 100);
+            return new PriceAtWebsite(webpage.trim(), pence / 100);
         } catch (XPathExpressionException e) {
             throw new RuntimeException(e);
         }
