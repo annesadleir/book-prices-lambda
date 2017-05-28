@@ -1,5 +1,7 @@
 package uk.co.littlestickyleaves.bookprices.domain;
 
+import java.util.Objects;
+
 /**
  * Just holds a price in pounds and a url
  */
@@ -28,5 +30,19 @@ public class PriceAtWebsite {
                 "webAddress='" + webAddress + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) { return true; }
+        if (o == null || getClass() != o.getClass()) { return false; }
+        PriceAtWebsite that = (PriceAtWebsite) o;
+        return Double.compare(that.price, price) == 0 &&
+                Objects.equals(webAddress, that.webAddress);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(webAddress, price);
     }
 }

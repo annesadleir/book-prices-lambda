@@ -31,8 +31,8 @@ public class AmazonPriceService extends BookshopPriceService {
     private static final String XPATH_ITEM_WEBPAGE = "DetailPageURL";
     private static final String XPATH_FIRST_OFFER_PRICE = "Offers/Offer[1]/OfferListing/Price/Amount";
 
-    private AmazonSignedUrlCreator signatureHelper;
-    private XPath xPath;
+    private final AmazonSignedUrlCreator signatureHelper;
+    private final XPath xPath;
 
     public AmazonPriceService(AmazonSignedUrlCreator signatureHelper) {
         super(Bookshop.AMAZON);
@@ -82,7 +82,7 @@ public class AmazonPriceService extends BookshopPriceService {
             Double pence = (Double) xPath.evaluate(XPATH_FIRST_OFFER_PRICE, node, XPathConstants.NUMBER);
             return new PriceAtWebsite(webpage, pence / 100);
         } catch (XPathExpressionException e) {
-            throw new RuntimeException("");
+            throw new RuntimeException(e);
         }
     }
 }

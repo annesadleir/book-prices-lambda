@@ -6,8 +6,6 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.time.Clock;
@@ -17,34 +15,39 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import static uk.co.littlestickyleaves.bookprices.config.BookPricesConfiguration.UTF8;
+
 /**
  * originally from http://docs.aws.amazon.com/AWSECommerceService/latest/DG/AuthJavaSampleSig2.html
  * but with much adaptation
  */
 
 public class AmazonSignedUrlCreator {
-    private static final Charset UTF8 = StandardCharsets.UTF_8;
 
-    private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";
+    private static final String HMAC_SHA256 = "HmacSHA256";
     private static final String REQUEST_URI = "/onca/xml";
     private static final String REQUEST_METHOD = "GET";
     private static final String ENDPOINT = "webservices.amazon.co.uk"; // must be lowercase
 
     private final String awsAccessKeyId;
     private final String associateId;
+    private final Mac mac;
 
-    private Mac mac;
-
-    public AmazonSignedUrlCreator(String awsAccessKeyId, String awsSecretKey, String associateId) {
+    private AmazonSignedUrlCreator(String awsAccessKeyId, String associateId, Mac mac) {
         this.associateId = associateId;
         this.awsAccessKeyId = awsAccessKeyId;
+        this.mac = mac;
+    }
+
+    public static AmazonSignedUrlCreator instance(String awsAccessKeyId, String awsSecretKey, String associateId) {
         byte[] secretKeyBytes = awsSecretKey.getBytes(UTF8);
-        SecretKeySpec secretKeySpec = new SecretKeySpec(secretKeyBytes, HMAC_SHA256_ALGORITHM);
+        SecretKeySpec secretKeySpec = new SecretKeySpec(secretKeyBytes, HMAC_SHA256);
         try {
-            mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);
+            Mac mac = Mac.getInstance(HMAC_SHA256);
             mac.init(secretKeySpec);
+            return new AmazonSignedUrlCreator(awsAccessKeyId, associateId, mac);
         } catch (InvalidKeyException | NoSuchAlgorithmException e) {
-            throw new RuntimeException("Catastrophic error in AmazonSignedUrlCreator constructor", e);
+            throw new RuntimeException("Unable to setup Message-Authentication Code algorithm for Amazon API signing", e);
         }
     }
 

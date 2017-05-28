@@ -25,4 +25,8 @@ public class BookPricesRequestHandler implements RequestHandler<ISBN, Map<Booksh
         BookPriceInfoCreator bookPriceInfoCreator = bookPriceInfoCreatorSupplier.get();
         return bookPriceInfoCreator.start(isbn);
     }
+
+    public void setBookPriceInfoCreatorSupplier(Supplier<BookPriceInfoCreator> bookPriceInfoCreatorSupplier) {
+        this.bookPriceInfoCreatorSupplier = bookPriceInfoCreatorSupplier;
+    }
 }
