@@ -1,0 +1,10 @@
+uk\co\littlestickyleaves\bookprices\domain\PriceAtWebsite.class
+uk\co\littlestickyleaves\bookprices\shops\amazon\AmazonSignedUrlCreator.class
+uk\co\littlestickyleaves\bookprices\config\BookPricesConfiguration.class
+uk\co\littlestickyleaves\bookprices\shops\amazon\AmazonPriceService.class
+uk\co\littlestickyleaves\bookprices\shops\BookshopPriceService.class
+uk\co\littlestickyleaves\bookprices\shops\waterstones\WaterstonesPriceService.class
+uk\co\littlestickyleaves\bookprices\domain\ISBN.class
+uk\co\littlestickyleaves\bookprices\BookPricesRequestHandler.class
+uk\co\littlestickyleaves\bookprices\BookPriceInfoCreator.class
+uk\co\littlestickyleaves\bookprices\domain\Bookshop.class
