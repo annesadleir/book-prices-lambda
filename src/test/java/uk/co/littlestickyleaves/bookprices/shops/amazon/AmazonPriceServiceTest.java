@@ -11,7 +11,7 @@ import uk.co.littlestickyleaves.bookprices.domain.PriceAtWebsite;
 @Ignore
 public class AmazonPriceServiceTest {
 
-    
+
 
     @Ignore
     @Test
