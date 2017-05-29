@@ -23,8 +23,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-@RunWith(PowerMockRunner.class) // The runner of PowerMock
-@PrepareForTest(Jsoup.class) // the class to prepare
+@RunWith(PowerMockRunner.class)
 public class WaterstonesPriceServiceTest {
 
     private WaterstonesPriceService testObject;
@@ -42,7 +41,7 @@ public class WaterstonesPriceServiceTest {
         PowerMockito.mockStatic(Jsoup.class);
         Connection mockConnection = mock(Connection.class);
         String sampleUrl = "sampleUrl";
-        String text = "9.99";
+        String priceAsText = "9.99";
 
         BDDMockito.given(Jsoup.connect(url)).willReturn(mockConnection);
         when(mockConnection.get()).thenReturn(mockDocument);
@@ -50,12 +49,14 @@ public class WaterstonesPriceServiceTest {
         when(mockDocument.getElementsByAttributeValue("itemprop", "price")).thenReturn(mockElements);
         when(mockElements.attr("content")).thenReturn(sampleUrl);
         when(mockElements.first()).thenReturn(mockElement);
-        when(mockElement.text()).thenReturn(text);
+        when(mockElement.text()).thenReturn(priceAsText);
 
         // act
         PriceAtWebsite result = testObject.checkPrice(isbn);
 
         // assert
+        assertEquals(sampleUrl, result.getWebAddress());
+        assertEquals(9.99, result.getPrice(), 0.0001);
     }
 
 }
